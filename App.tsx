@@ -8,6 +8,7 @@ import { useAuth } from '@/hooks/useAuth';
 import { useSmsScheduler } from '@/hooks/useSmsScheduler';
 import type { WishFormData, Wish } from '@/types';
 import { Toaster } from '@/components/ui/sonner';
+import './styles.css';
 
 type PageView = 'home' | 'create' | 'view' | 'manage';
 
